@@ -51,7 +51,7 @@ class _ListaTopCincoFilmeState extends State<ListaTopCincoFilme> {
                             overflow: TextOverflow.ellipsis,
                           ),
                           leading: Image.network(
-                              'https://image.tmdb.org/t/p/w500${movie.backdropPath}'),
+                              'https://image.tmdb.org/t/p/w500${movie.backdropPath} '),
                         );
                       } else {
                         viewModel.getTopCinco();
